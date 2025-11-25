@@ -1,0 +1,61 @@
+ body { 
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+    margin: 0;
+    padding: 0; 
+}
+.container { 
+    max-width: 500px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+h2 { 
+    text-align: center;
+    color: #c0392b; 
+}
+label { 
+    display: block;
+    margin-top: 16px;
+}
+input, select, textarea { 
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+button { background: #c0392b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px; margin-top: 16px;
+    cursor: pointer;
+}
+button:hover {
+    background: #e74c3c;
+}
+.results { 
+    margin-top: 24px;
+}
+.result-card { 
+    background: #f2d7d5; 
+    padding: 12px; 
+    border-radius: 6px; 
+    margin-bottom: 12px; 
+}
+.comm-section { 
+    margin-top: 32px; 
+}
+.msg-list {
+    background: #f9ebea; 
+    padding: 10px; 
+    border-radius: 6px; 
+    min-height: 60px; 
+    margin-bottom: 12px;
+}
+.msg { 
+    margin-bottom: 8px; 
+}

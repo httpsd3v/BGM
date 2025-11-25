@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blood Group Matcher</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <link rel="stylesheet" href="styles.css">
+<body>
+    <div class="container">
+        <h2>Blood Group Matcher</h2>
+        <form id="matcherForm">
+            <label for="hospitalName">Hospital Name:</label>
+            <input type="text" id="hospitalName" required>
+
+            <label for="location">Location:</label>
+            <input type="text" id="location" required>
+
+            <label for="bloodGroup">Required Blood Group:</label>
+            <select id="bloodGroup" required>
+                <option value="">Select</option>
+                <option value="A+">A+</option>
+                <option value="A-">A-</option>
+                <option value="B+">B+</option>
+                <option value="B-">B-</option>
+                <option value="AB+">AB+</option>
+                <option value="AB-">AB-</option>
+                <option value="O+">O+</option>
+                <option value="O-">O-</option>
+            </select>
+            <button type="submit">Find Matches</button>
+        </form>
+
+        <div class="results" id="results"></div>
+
+        <div class="comm-section">
+            <h3>Hospital Communication</h3>
+            <div class="msg-list" id="msgList"></div>
+            <form id="commForm">
+                <textarea id="message" rows="2" placeholder="Type your message..."></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+<script src="script.js" defer></script>    
+</body>
+</html>
